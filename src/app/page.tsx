@@ -1,16 +1,16 @@
 import Navbar from "@components/Navbar";
-import Hero from "@components/Hero";
-import Stats from "@components/Stats";
-import Services from "@components/Services";
-import WhyChooseUs from "@components/WhyChooseUs";
-import Industries from "@components/Industries";
-import Process from "@components/Process";
-import About from "@components/About";
-import Testimonials from "@components/Testimonials";
-import FAQ from "@components/FAQ";
-import CTA from "@components/CTA";
-import Contact from "@components/Contact";
 import Footer from "@components/Footer";
+import Hero from "@views/Home/Hero";
+import Stats from "@views/Home/Stats";
+import Services from "@views/Home/Services";
+import WhyChooseUs from "@views/Home/WhyChooseUs";
+import Industries from "@views/Home/Industries";
+import Process from "@views/Home/Process";
+import About from "@views/Home/About";
+import Testimonials from "@views/Home/Testimonials";
+import FAQ from "@views/Home/FAQ";
+import CTA from "@views/Home/CTA";
+import Contact from "@views/Home/Contact";
 
 export default function HomePage() {
   return (

@@ -5,10 +5,33 @@ export interface NavItem {
 
 export interface Service {
   id: string;
+  slug: string;
   title: string;
   description: string;
   icon: string;
   href: string;
+}
+
+export interface ServiceSubItem {
+  title: string;
+  description: string;
+}
+
+export interface ServiceDetail {
+  id: string;
+  slug: string;
+  title: string;
+  tagline: string;
+  description: string;
+  icon: string;
+  heroDescription: string;
+  subServices: ServiceSubItem[];
+  whyUs: {
+    heading: string;
+    body: string;
+    bullets: string[];
+  };
+  metaDescription: string;
 }
 
 export interface Stat {

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import {
   BookOpen,
@@ -92,10 +93,13 @@ export default function Services() {
                     {service.description}
                   </p>
 
-                  <button className="flex items-center gap-1.5 text-sm font-medium text-primary hover:gap-2.5 transition-all duration-200 group-hover:underline">
+                  <Link
+                    href={service.href}
+                    className="flex items-center gap-1.5 text-sm font-medium text-primary hover:gap-2.5 transition-all duration-200 group-hover:underline"
+                  >
                     Learn More
                     <ArrowRight className="w-3.5 h-3.5" />
-                  </button>
+                  </Link>
                 </div>
               </motion.div>
             );

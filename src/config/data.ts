@@ -12,76 +12,84 @@ import type {
 
 export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Industries", href: "#industries" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/#about" },
+  { label: "Services", href: "/services" },
+  { label: "Industries", href: "/#industries" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export const services: Service[] = [
   {
     id: "accounting",
+    slug: "accounting-bookkeeping",
     title: "Accounting & Bookkeeping",
     description:
       "Maintain accurate, reliable financial records that support compliance and smarter business decisions. We handle day-to-day bookkeeping, ledger management, and financial statement preparation.",
     icon: "BookOpen",
-    href: "#services",
+    href: "/services/accounting-bookkeeping",
   },
   {
     id: "payroll",
+    slug: "payroll-management",
     title: "Payroll Management",
     description:
       "Ensure timely salary processing, accurate deductions, and complete statutory compliance with our streamlined payroll solutions. PF, ESI, TDS, and all payroll requirements handled.",
     icon: "Users",
-    href: "#services",
+    href: "/services/payroll-management",
   },
   {
     id: "tax",
+    slug: "tax-services",
     title: "Tax Services",
     description:
       "From planning to filing, we provide comprehensive tax solutions for individuals and businesses. Our guidance ensures full compliance while optimizing your tax liability legally.",
     icon: "FileText",
-    href: "#services",
+    href: "/services/tax-services",
   },
   {
     id: "gst",
+    slug: "gst-services",
     title: "GST Services",
     description:
       "Complete GST support including registration, monthly returns, annual filings, audits, and refunds. We keep your business fully compliant while avoiding costly errors and penalties.",
     icon: "Receipt",
-    href: "#services",
+    href: "/services/gst-services",
   },
   {
     id: "financial",
+    slug: "financial-management",
     title: "Financial Management",
     description:
       "We help businesses manage resources through budgeting, financial reporting, analysis, and strategic planning. Our solutions strengthen financial health and support long-term growth.",
     icon: "TrendingUp",
-    href: "#services",
+    href: "/services/financial-management",
   },
   {
     id: "loans",
+    slug: "business-project-loans",
     title: "Business Project Loans",
     description:
       "Expert assistance in preparing detailed project reports and securing business loans with government subsidies. We navigate the process from application to disbursement.",
     icon: "Building2",
-    href: "#services",
+    href: "/services/business-project-loans",
   },
   {
     id: "audit",
+    slug: "audit-assurance",
     title: "Audit & Assurance",
     description:
       "Statutory audits, internal audits, and tax audits conducted with precision and independence. We provide reliable assurance services that build stakeholder confidence.",
     icon: "Shield",
-    href: "#services",
+    href: "/services/audit-assurance",
   },
   {
     id: "advisory",
+    slug: "business-advisory",
     title: "Business Advisory",
     description:
       "Strategic business advisory from startups to established enterprises. We deliver practical insights, growth-focused strategies, and business structuring guidance tailored to your goals.",
     icon: "Lightbulb",
-    href: "#services",
+    href: "/services/business-advisory",
   },
 ];
 
