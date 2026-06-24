@@ -22,9 +22,6 @@ const serviceOptions = [
   "Tax Services (ITR)",
   "GST Services",
   "Financial Management",
-  "Business Project Loan",
-  "Audit & Assurance",
-  "Business Advisory",
   "Other",
 ];
 

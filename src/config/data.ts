@@ -22,18 +22,18 @@ export const services: Service[] = [
   {
     id: "accounting",
     slug: "accounting-bookkeeping",
-    title: "Accounting & Bookkeeping",
+    title: "Accounting & Bookkeeping Services",
     description:
-      "Maintain accurate, reliable financial records that support compliance and smarter business decisions. We handle day-to-day bookkeeping, ledger management, and financial statement preparation.",
+      "Reliable and accurate Accounting & Bookkeeping Services in India, USA, UK and Australia tailored to meet the unique needs of businesses of all sizes. Our goal is to help you stay financially organized, compliant, and ready to make informed business decisions.",
     icon: "BookOpen",
     href: "/services/accounting-bookkeeping",
   },
   {
     id: "payroll",
     slug: "payroll-management",
-    title: "Payroll Management",
+    title: "Payroll Management Services",
     description:
-      "Ensure timely salary processing, accurate deductions, and complete statutory compliance with our streamlined payroll solutions. PF, ESI, TDS, and all payroll requirements handled.",
+      "End-to-end Payroll Management Services to ensure your employees are paid accurately, on time, and in full compliance with legal and tax regulations.",
     icon: "Users",
     href: "/services/payroll-management",
   },
@@ -42,54 +42,27 @@ export const services: Service[] = [
     slug: "tax-services",
     title: "Tax Services",
     description:
-      "From planning to filing, we provide comprehensive tax solutions for individuals and businesses. Our guidance ensures full compliance while optimizing your tax liability legally.",
+      "Comprehensive taxation services in India and abroad. Whether you're an individual, a startup, or a multinational business, we provide expert guidance to ensure compliance and optimize your tax position across borders.",
     icon: "FileText",
     href: "/services/tax-services",
   },
   {
-    id: "gst",
-    slug: "gst-services",
-    title: "GST Services",
-    description:
-      "Complete GST support including registration, monthly returns, annual filings, audits, and refunds. We keep your business fully compliant while avoiding costly errors and penalties.",
-    icon: "Receipt",
-    href: "/services/gst-services",
-  },
-  {
     id: "financial",
     slug: "financial-management",
-    title: "Financial Management",
+    title: "Financial Management Services",
     description:
-      "We help businesses manage resources through budgeting, financial reporting, analysis, and strategic planning. Our solutions strengthen financial health and support long-term growth.",
+      "A comprehensive suite of Financial Management Services in India designed to help individuals, startups, SMEs, and corporates manage their finances efficiently, mitigate risks, and make informed decisions for the future.",
     icon: "TrendingUp",
     href: "/services/financial-management",
   },
   {
-    id: "loans",
-    slug: "business-project-loans",
-    title: "Business Project Loans",
+    id: "gst",
+    slug: "gst-services",
+    title: "Goods & Services Tax (GST)",
     description:
-      "Expert assistance in preparing detailed project reports and securing business loans with government subsidies. We navigate the process from application to disbursement.",
-    icon: "Building2",
-    href: "/services/business-project-loans",
-  },
-  {
-    id: "audit",
-    slug: "audit-assurance",
-    title: "Audit & Assurance",
-    description:
-      "Statutory audits, internal audits, and tax audits conducted with precision and independence. We provide reliable assurance services that build stakeholder confidence.",
-    icon: "Shield",
-    href: "/services/audit-assurance",
-  },
-  {
-    id: "advisory",
-    slug: "business-advisory",
-    title: "Business Advisory",
-    description:
-      "Strategic business advisory from startups to established enterprises. We deliver practical insights, growth-focused strategies, and business structuring guidance tailored to your goals.",
-    icon: "Lightbulb",
-    href: "/services/business-advisory",
+      "Comprehensive GST services to help individuals, businesses, and organizations stay compliant with India's Goods and Services Tax regime. Whether you're starting out or scaling up, our team ensures a hassle-free experience.",
+    icon: "Receipt",
+    href: "/services/gst-services",
   },
 ];
 
